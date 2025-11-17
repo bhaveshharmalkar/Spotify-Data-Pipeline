@@ -1,0 +1,12 @@
+{
+	"name": "source_adf",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "source_adf_linked_service",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": []
+	}
+}
