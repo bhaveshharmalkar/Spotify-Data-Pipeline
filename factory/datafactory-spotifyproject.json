@@ -1,0 +1,9 @@
+{
+	"name": "datafactory-spotifyproject",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "eed7dab1-5329-410d-9dec-69a06c950b60",
+		"tenantId": "f902b2b3-c305-46c9-a89a-366a5f7266c1"
+	}
+}
