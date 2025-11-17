@@ -1,0 +1,12 @@
+{
+	"name": "datalake",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://storageaccspotify.dfs.core.windows.net/",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEYzMjQ4MTRBLTZCQ0ItNEMwQy05Qjk1LTU2OTFFRDUxRTYzOV9jYTQwODFlOS1kMjNhLTRlNWYtOTY2My0xZDI2MmYxZWFmMzgiDQp9"
+		}
+	}
+}
