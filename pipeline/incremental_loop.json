@@ -92,7 +92,7 @@
 											"type": "Expression"
 										},
 										"file": {
-											"value": "@{item().table},'_',variables('current'))",
+											"value": "@concat(item().table,'_',variables('current'))",
 											"type": "Expression"
 										}
 									}
