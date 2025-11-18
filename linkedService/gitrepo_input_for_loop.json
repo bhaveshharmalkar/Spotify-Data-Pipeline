@@ -1,0 +1,12 @@
+{
+	"name": "gitrepo_input_for_loop",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://raw.githubusercontent.com/bhaveshharmalkar/Spotify-Azure-Project/refs/heads/main/loop_input.json",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}

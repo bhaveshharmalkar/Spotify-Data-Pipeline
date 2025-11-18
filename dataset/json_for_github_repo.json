@@ -1,0 +1,17 @@
+{
+	"name": "json_for_github_repo",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "gitrepo_input_for_loop",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation"
+			}
+		},
+		"schema": {}
+	}
+}
