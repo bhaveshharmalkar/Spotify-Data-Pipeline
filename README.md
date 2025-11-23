@@ -13,6 +13,9 @@ Unlike traditional static pipelines, this solution focuses on **scalability** an
 * **Monitor:** Automated email alerting via **Azure Logic Apps**.
 
 ## 🏗️ Architecture
+
+![Architecture](Architecture_Spotify.png)
+
 **Data Flow:**
 1.  **Source:** Transactional data residing in **Azure SQL Database**.
 2.  **Ingestion (ADF):**  Reads a configuration file (`loop_input.json`) from GitHub.
